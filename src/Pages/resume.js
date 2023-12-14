@@ -8,7 +8,7 @@ import Extras from  '../Components/Extras'
 
 const Resume = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-around font-serif'>
       <Header/>
       <Education/>
       <Experience/>

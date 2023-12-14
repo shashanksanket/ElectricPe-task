@@ -5,7 +5,7 @@ import Resume from './Pages/resume';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App m-12">
         <Routes>
           <Route path="/" element={<Resume />} />
         </Routes>
