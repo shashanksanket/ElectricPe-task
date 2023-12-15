@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ElectricPe-task/static/css/main.d75a0f1a.css",
-    "main.js": "/ElectricPe-task/static/js/main.15692e2b.js",
+    "main.js": "/ElectricPe-task/static/js/main.6c30f01b.js",
     "static/js/787.a99868c3.chunk.js": "/ElectricPe-task/static/js/787.a99868c3.chunk.js",
     "index.html": "/ElectricPe-task/index.html",
     "main.d75a0f1a.css.map": "/ElectricPe-task/static/css/main.d75a0f1a.css.map",
-    "main.15692e2b.js.map": "/ElectricPe-task/static/js/main.15692e2b.js.map",
+    "main.6c30f01b.js.map": "/ElectricPe-task/static/js/main.6c30f01b.js.map",
     "787.a99868c3.chunk.js.map": "/ElectricPe-task/static/js/787.a99868c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d75a0f1a.css",
-    "static/js/main.15692e2b.js"
+    "static/js/main.6c30f01b.js"
   ]
 }
