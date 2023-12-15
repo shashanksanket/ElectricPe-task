@@ -33,19 +33,19 @@ const Experience = () => {
     <div className='flex flex-col'>
       {Experience.map((experience, index) => (
         <div className='flex flex-col my-2' key={index}>
-          <div className='flex justify-between'>
+          <div className='flex flex-wrap justify-between'>
             <p className='font-bold text-lg'>•{experience.company}</p>
             <p  className='italic'>{experience.duration}</p>
           </div>
-          <div className='flex justify-between'>
+          <div className='flex flex-wrap justify-between'>
             <p className='italic'>{experience.role}</p>
             <p>{experience.location}</p>
           </div>
           <div className='flex flex-col ml-1 justify-between'>
-            {experience.description.map((desc) =>(
-              <p> – {desc}</p>
+            {experience.description.map((desc,index) =>(
+              <p key={index}> – {desc}</p>
             ))}
-            <p> – Live Link: <a href={experience.link}>{experience.link}</a></p>
+            <p className='inline-block break-words'> – Live Link: <a href={experience.link}>{experience.link}</a></p>
           </div>
         </div>
       ))}

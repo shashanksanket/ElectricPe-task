@@ -9,14 +9,14 @@ const Header = () => {
   }
   return (
     <div>
-      <div className='flex justify-between font-bold'>
+      <div className='flex flex-wrap justify-between font-bold'>
         <p className='text-2xl'>{Headers?.name}</p>
         <p><i className="fa-solid fa-phone"></i> {Headers.phoneNumber}</p>
       </div>
-      <div>
-        <p><i class="fa-solid fa-envelope"></i> {Headers.personalEmail}</p>
-        <p><i class="fa-solid fa-envelope"></i> {Headers.officialEmail}</p>
-        <p><a href={Headers.linkedinLink}><i class="fa-brands fa-linkedin"></i> Linkedin Profile</a></p>
+      <div className='break-words'>
+        <p><i className="fa-solid fa-envelope"></i> {Headers.personalEmail}</p>
+        <p><i className="fa-solid fa-envelope"></i> {Headers.officialEmail}</p>
+        <p><a href={Headers.linkedinLink}><i className="fa-brands fa-linkedin"></i> Linkedin Profile</a></p>
       </div>
     </div>
   );

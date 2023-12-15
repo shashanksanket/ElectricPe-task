@@ -51,10 +51,10 @@ const Projects = () => {
             <p className='italic mb-2 ml-4'>Techstack: {projects.techstack}</p>
           </div>
           <div className='flex flex-col ml-5 justify-between'>
-            {projects.description.map((desc) =>(
-              <p className=''> ∗ {desc}</p>
+            {projects.description.map((desc,index) =>(
+              <p key={index}> ∗ {desc}</p>
             ))}
-            <p> ∗ Live Link: <a href={projects.link}>{projects.link}</a></p>
+            <p className='inline-block break-words'> ∗ Live Link: <a href={projects.link}>{projects.link}</a></p>
           </div>
         </div>
       ))}

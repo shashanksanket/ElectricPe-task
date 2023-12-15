@@ -22,10 +22,10 @@ const Education = () => {
     },
   ]
   return (
-    <div className='mt-7'>
+    <div className='mt-7 overflow-x-auto'>
       <p className='text-2xl'>Education</p>
       <div className='border-t-2 border-black'></div>
-      <div className='flex flex-col'>
+      <div className='flex flex-col min-w-100'>
         {Education.map((education, index) => (
           <div className='flex flex-col my-2' key={index}>
             <div className='flex justify-between'>
