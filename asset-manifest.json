@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a2a5887.css",
-    "main.js": "/static/js/main.0963736b.js",
-    "static/js/787.a99868c3.chunk.js": "/static/js/787.a99868c3.chunk.js",
-    "index.html": "/index.html",
-    "main.7a2a5887.css.map": "/static/css/main.7a2a5887.css.map",
-    "main.0963736b.js.map": "/static/js/main.0963736b.js.map",
-    "787.a99868c3.chunk.js.map": "/static/js/787.a99868c3.chunk.js.map"
+    "main.css": "/ElectricPe-task/static/css/main.d75a0f1a.css",
+    "main.js": "/ElectricPe-task/static/js/main.15692e2b.js",
+    "static/js/787.a99868c3.chunk.js": "/ElectricPe-task/static/js/787.a99868c3.chunk.js",
+    "index.html": "/ElectricPe-task/index.html",
+    "main.d75a0f1a.css.map": "/ElectricPe-task/static/css/main.d75a0f1a.css.map",
+    "main.15692e2b.js.map": "/ElectricPe-task/static/js/main.15692e2b.js.map",
+    "787.a99868c3.chunk.js.map": "/ElectricPe-task/static/js/787.a99868c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a2a5887.css",
-    "static/js/main.0963736b.js"
+    "static/css/main.d75a0f1a.css",
+    "static/js/main.15692e2b.js"
   ]
 }
