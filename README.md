@@ -57,7 +57,7 @@ Open your browser and visit [http://localhost:3000](http://localhost:3000) to vi
 The project structure is organized as follows:
 
 ```
-your-cv-app/
+resume-web/
 |-- public/
 |   |-- index.html
 |   |-- ...
