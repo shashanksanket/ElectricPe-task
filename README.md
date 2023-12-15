@@ -89,16 +89,16 @@ This project uses the following major dependencies:
 
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [React Router](https://reactrouter.com/): Declarative routing for React.js.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development.
+
 
 For a complete list of dependencies, refer to the `package.json` file.
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+..
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE).
+..
 ```
 
-Feel free to make any further adjustments or additions based on your project specifics.
