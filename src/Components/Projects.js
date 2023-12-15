@@ -38,23 +38,23 @@ const Projects = () => {
   ]
   return (
     <div className=''>
-    <p className='text-2xl'>Personal Projects</p>
-    <div className='border-t-2 my-2 border-black'></div>
+    <p className='text-2xl'>Personal Projects </p>
+    <div className='border-t-2 border-black'></div>
     <div className='flex flex-col'>
     {Projects.map((projects, index) => (
         <div className='flex flex-col my-2' key={index}>
           <div className='flex justify-between'>
-            <p>{projects.title}</p>
+            <p className='font-bold text-lg'> – {projects.title}</p>
             <p>{projects.duration}</p>
           </div>
           <div className='flex justify-between'>
-            <p>{projects.techstack}</p>
+            <p className='italic mb-2 ml-4'>Techstack: {projects.techstack}</p>
           </div>
-          <div className='flex flex-col justify-between'>
+          <div className='flex flex-col ml-5 justify-between'>
             {projects.description.map((desc) =>(
-              <p>{desc}</p>
+              <p className=''> ∗ {desc}</p>
             ))}
-            <p>Live Link: <a href={projects.link}>{projects.link}</a></p>
+            <p> ∗ Live Link: <a href={projects.link}>{projects.link}</a></p>
           </div>
         </div>
       ))}

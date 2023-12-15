@@ -24,16 +24,16 @@ const Education = () => {
   return (
     <div className='mt-7'>
       <p className='text-2xl'>Education</p>
-      <div className='border-t-2 my-2 border-black'></div>
+      <div className='border-t-2 border-black'></div>
       <div className='flex flex-col'>
         {Education.map((education, index) => (
           <div className='flex flex-col my-2' key={index}>
             <div className='flex justify-between'>
-              <p className='font-bold text-lg'>{education.university}</p>
-              <p className='italic'>{education.duration}</p>
+              <p className='font-bold text-lg'>•{education.university}</p>
+              <p className='italic font-[100]'>{education.duration}</p>
             </div>
             <div className='flex justify-between'>
-              <p>{education.degree}</p>
+              <p className='italic font-[100] ml-2'>{education.degree}</p>
               <p>{education.score}</p>
             </div>
           </div>

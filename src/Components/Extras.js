@@ -8,7 +8,7 @@ const Extras = () => {
   return (
     <div className=''>
     <p className='text-2xl'>Technical Skills and Interests</p>
-    <div className='border-t-2 my-2 border-black'>
+    <div className='border-t-2 border-black'>
       <p><span className='font-bold'>Languages: </span>{Extras.languages}</p>
       <p><span className='font-bold'>Skills: </span>{Extras.skills}</p>
     </div>
