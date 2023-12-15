@@ -1,6 +1,5 @@
 Certainly! Below is the README.md file based on the provided information. Please replace placeholders like `your-username` and `your-cv-app` with your actual GitHub username and project name.
 
-```markdown
 # My Responsive CV Website
 
 This project is a responsive React application that showcases my Curriculum Vitae (CV).
